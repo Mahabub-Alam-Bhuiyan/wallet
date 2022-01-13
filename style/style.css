@@ -1,0 +1,144 @@
+/* CSS FOR WEBSITE */
+/* GLOBAL CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.logo-section img {
+    margin: 20px 0;
+}
+
+.tittle {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Navbar CSS */
+.navbar {
+    padding-top: 0;
+    padding: 0px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-link {
+    padding: 0;
+    color: black !important;
+}
+
+
+.fa-user-circle {
+    color: #188c9b;
+    font-size: 20px;
+}
+
+.login {
+    display: none;
+    margin-left: auto;
+}
+
+/* Service Area */
+
+.service {
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.service h2 {
+    padding-bottom: 50px;
+}
+
+/* slider area */
+.carousel-inner {
+    background-color: rgb(235, 235, 235);
+    padding: 40px;
+}
+
+.carousel-inner .tittle {
+    text-align: center;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+
+.question {
+    min-height: 400px;
+}
+
+/* Form Area */
+
+.form-area {
+    padding: 100px 0;
+}
+
+.form-group {
+    margin: 10px 0 20px;
+}
+
+.form-group label {
+    color: black;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #ced4da !important;
+    border-radius: 0;
+    padding: 10px 2px 5px;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.main-part {
+    width: 250px;
+}
+
+.name,
+.address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.massage-area {
+    margin-bottom: 30px;
+}
+
+.btn-submit {
+    width: 100%;
+}
+
+/* footer */
+.footer {
+    margin-bottom: 20px;
+}
+
+.social-icon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.social-icon ul li a {
+    color: black;
+}
+
+.last-text {
+    text-align: center;
+    color: black;
+}

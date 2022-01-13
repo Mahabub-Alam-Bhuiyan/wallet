@@ -1,0 +1,47 @@
+/* Contact CSS */
+.support {
+    margin: 100px 0;
+    background-color: rgb(235, 235, 235);
+    padding: 40px;
+}
+
+.contact-page {
+    margin: 0 0 160px 0;
+}
+
+.contact-social ul {
+    display: flex;
+    text-align: left;
+    padding: 0;
+}
+
+.contact-social ul li {
+    padding-right: 15px;
+    list-style: none;
+}
+
+.contact-social ul li a {
+    color: black;
+    font-size: 16px;
+}
+
+.contact-page .form-group {
+    width: 31%;
+}
+
+.contact-page .form-control {
+    border: 1px solid #ced4da !important;
+    padding: 0 10px;
+}
+
+.contact-page .massage-area {
+    width: 100%;
+}
+
+.massage-area .form-control {
+    padding-top: 8px !important;
+}
+
+.btn-contact {
+    float: right;
+}

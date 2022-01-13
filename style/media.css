@@ -1,0 +1,130 @@
+@media (max-width:992px) {
+    .fisrt-section {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .navbar {
+        position: absolute;
+        padding: 0;
+    }
+
+    .navbar-nav {
+        padding: 10px;
+    }
+
+    .login {
+        display: block;
+        padding-top: 3px;
+    }
+
+    .last-item {
+        display: none;
+    }
+
+    .name,
+    .address {
+        flex-direction: column;
+    }
+
+    .main-part {
+        width: 100%;
+    }
+
+    .nav-link {
+        padding: 5px;
+    }
+
+    /* contact page */
+    .contact-form form .name {
+        flex-direction: row;
+    }
+}
+
+@media (max-width:768px) {
+    .contact-form form .name {
+        flex-direction: column;
+    }
+
+    .contact-page .form-group {
+        width: 100%;
+    }
+
+    .contact-with {
+        margin-bottom: 20px;
+    }
+
+    .support {
+        margin: 70px 0;
+        padding: 30px;
+    }
+
+    .contact-page {
+        margin: 0 0 130px 0;
+    }
+
+}
+
+@media (min-width : 568px) and (max-width : 967.9px) {
+    .service {
+        padding: 70px 0;
+        width: 90%;
+    }
+
+    .carousel-inner {
+        padding: 30px;
+    }
+
+    .form-area {
+        padding: 70px 0;
+    }
+
+    .navbar-collapse {
+        width: 636px;
+        margin-top: 15px;
+        border: 1px solid #eee;
+        background-color: rgb(255, 255, 255);
+    }
+
+}
+
+@media (max-width:567.9px) {
+    .tittle {
+        font-size: 30px;
+    }
+
+    .navbar-collapse {
+        width: 326px;
+        margin-top: 15px;
+        border: 1px solid #eee;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /* service area */
+    .service {
+        padding: 70px 0;
+        width: 90%;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .service h2 {
+        padding-bottom: 30px;
+    }
+
+    .carousel-inner {
+        padding: 30px;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .form-area {
+        padding: 70px 0;
+    }
+
+    .contact {
+        padding-bottom: 34px;
+    }
+
+}
